@@ -4,10 +4,10 @@
 void show(int a[]),bubble(int a[]);
 int main(int argc, char *argv[])
 {
-int a,b,c,d,e;
+int FirstNumber,SecondNumber,ThirdNumber,ForthNumber,FifthNumber;
 printf("請輸入:");
-scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
-int data[SIZE]={a,b,c,d,e};
+scanf("%d %d %d %d %d",&FirstNumber,&SecondNumber,&ThirdNumber,&ForthNumber,&FifthNumber);
+int data[SIZE]={FirstNumber,SecondNumber,ThirdNumber,ForthNumber,FifthNumber};
 printf("排序前..\n");
 show(data);
 bubble(data);
